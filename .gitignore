@@ -1,0 +1,49 @@
+# Entornos virtuales de Python
+backend/
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos compilados de Python
+*.py[cod]
+*$py.class
+__pycache__/
+*.so
+
+# Archivos de distribución
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Datos grandes (opcional, descomenta si no quieres subir el CSV)
+# datos/*.csv
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*
+
+# Variables de entorno
+.env
+.env.local
