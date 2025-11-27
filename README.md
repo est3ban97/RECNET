@@ -24,7 +24,10 @@ RECNET es una aplicación web que proporciona recomendaciones de películas pers
 - Scikit-learn
 
 ### Frontend
-- [Especificar tecnologías del frontend]
+- React 19.2.0
+- React Router DOM
+- Axios (para peticiones HTTP)
+- React Scripts
 
 ## 📦 Instalación
 
@@ -76,8 +79,11 @@ python main.py
 
 ```bash
 cd frontend
-# [Agregar comandos específicos para ejecutar el frontend]
+npm install
+npm start
 ```
+
+El frontend se ejecutará en `http://localhost:3000`
 
 ## 📁 Estructura del Proyecto
 
